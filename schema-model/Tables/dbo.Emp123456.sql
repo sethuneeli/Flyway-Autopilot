@@ -1,0 +1,9 @@
+CREATE TABLE [dbo].[Emp123456]
+(
+[Id] [int] NOT NULL,
+[Name] [nvarchar] (100) NULL,
+[Salary] [decimal] (10, 2) NULL
+)
+GO
+ALTER TABLE [dbo].[Emp123456] ADD CONSTRAINT [PK__Emp12345__3214EC07DFC7EFE5] PRIMARY KEY CLUSTERED ([Id])
+GO

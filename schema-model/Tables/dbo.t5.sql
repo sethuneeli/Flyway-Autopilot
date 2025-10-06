@@ -1,0 +1,8 @@
+CREATE TABLE [dbo].[t5]
+(
+[id] [int] NOT NULL,
+[name] [varchar] (50) NULL
+)
+GO
+ALTER TABLE [dbo].[t5] ADD CONSTRAINT [PK__t5__3213E83F129217B2] PRIMARY KEY CLUSTERED ([id])
+GO

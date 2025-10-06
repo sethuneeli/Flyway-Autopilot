@@ -1,0 +1,3 @@
+CREATE ROLE [SQLArcExtensionUserRole]
+AUTHORIZATION [dbo]
+GO
